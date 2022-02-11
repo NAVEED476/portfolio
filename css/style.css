@@ -132,7 +132,7 @@ textarea {
       .heading-sec__main::after {
         top: calc(100% + 1.2rem); }
         .dynamicBgClr{
-          margin-top: 5px;
+          margin-top: 15px;
         }
        }
 
@@ -157,7 +157,7 @@ textarea {
   letter-spacing: 1px; }
 
 .main-container {
-  max-width: 120rem;
+  max-width: 100rem;
   margin: auto;
   width: 92%; }
 
@@ -192,10 +192,11 @@ textarea {
 
 
 .sec-pad {
-  padding: 12rem 0; }
+  padding: 5rem 0; }
   @media only screen and (max-width: 56.25em) {
     .sec-pad {
-      padding: 4rem 0; } }
+      padding: 2rem 0;
+       } }
 
 .text-primary {
   color: #fff;
@@ -356,13 +357,17 @@ textarea {
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: white;
-    padding: 1rem;
-    margin-top: 6rem;
+    padding: 0.1rem;
+    margin-top: 10rem;
     max-width: 40rem;
     text-align: center;
     width: 95%;
-    border-radius: 5px;
-    margin: 5rem auto 0 auto; }
+    border-radius:10px;
+    margin: 5rem auto  auto;
+   }
+   .mar{
+     margin-top: 22px;
+   }
     @media only screen and (max-width: 37.5em) {
       .contact__form-container {
         padding: 1rem;
