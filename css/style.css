@@ -697,9 +697,22 @@ textarea {
       .main-footer__lower {
         padding: 3.5rem 0; } }
 
+.icons{
+  font-size: 4rem;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.hov:hover{
+  color: green;
+  transform: scale(1,1.2);
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap; }
+
   .skills__skill {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
@@ -709,7 +722,15 @@ textarea {
     border-radius: 5px;
     font-weight: 600;
     color: rgb(251, 245, 245);
-    background-color: #06233b;
+    background-color: #2770ac;
+   }
+
+   .skills__skill:hover{
+     background-color: rgb(91, 9, 199);
+     color: white;
+     transform: scale3d(1,1.5);
+     border: red;
+     transition: ease-in;
    }
 
 .mouse {
@@ -742,3 +763,5 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+
